@@ -1,0 +1,14 @@
+---
+layout: default
+title: Writing
+---
+
+{% for post in site.posts %}
+  <section>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.excerpt }}</p>
+    <div class="post-footer">
+      <a href="{{ post.url }}">Continue reading »</a>
+    </div>
+  </section>
+{% endfor %}
