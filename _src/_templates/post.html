@@ -3,6 +3,8 @@
 
 {% set title = post.title %}
 
+{% block title %}{{ post.title }} — {% endblock %}
+
 {% block content %}
     <div class="item">
         <div class="item-header">
