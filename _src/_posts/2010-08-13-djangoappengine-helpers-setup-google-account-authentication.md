@@ -1,6 +1,7 @@
 ---
 layout: post.html
 title: Djangoappengine-helpers - Setup Reloaded
+tags: [old]
 ---
 
 **Update:** Djangoappengine-helpers dead, but the authentication backend
@@ -22,5 +23,3 @@ Setup
    to your root urlconf 
 
  -> the login url for example will look like: */accounts/login/*, *g_helpers.auth.urls* are named and support reversing, so you can include *g_helpers.auth.urls* for */fooBar* instead of */accounts* The setup was tested with djangoappengine and django-norel on Google App Engine.
-
-<div class="post-footer">Posted on Aug. 13, 2010 </div>

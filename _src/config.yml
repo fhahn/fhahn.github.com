@@ -15,13 +15,15 @@
 base_url: /
 domain:
 
+date_format: '%b %d, %Y'
+
 
 #
 # METADATA
 #
 
 # Used in header meta tags and the site feed. (required to generate a valid feed)
-author: author
+author: Florian Hahn
 # A description of your site to be used in header meta tags.
 description:
 # Used in the site feed.

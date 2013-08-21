@@ -1,0 +1,91 @@
+<html lang="en"> 
+<head>
+  <meta charset="utf-8">
+
+  <title></title>
+    
+
+  <meta name="description" content="">
+  <meta name="author" content="Florian Hahn">
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+	      <div id="subtitle">Florian Hahn</div>
+    </header>
+
+    <div id="main" role="main">
+      
+    <div class="item">
+        <div class="item-header">
+            <h1>Django's Permission System with Django-Nonrel</h1>
+        </div>
+        
+        <div class="item-body">
+            <p><strong>Update:</strong> The backend code was moved from <em>djangotoolbox</em> to a separate app:<br>
+<a href="https://github.com/django-nonrel/django-permission-backend-nonrel">django-permission-backend-nonrel</a> . Use <br>
+<code>&#39;permission_backend_nonrel.backends.NonrelPermissionBackend&#39;</code> instead of <br>
+<code>&#39;djangotoolbox.auth.backends.NonrelPermissionBackend&#39;</code> and add <br>
+<code>&#39;permission_backend_nonrel&#39;</code> to your <em>INSTALLED_APPS</em>.</p>
+
+<p>Support for Django&#39;s permission system was merged with <a href="https://github.com/django-nonrel/django-permission-backend-nonrel">djangotoolbox</a><br>
+a few days ago. An authentication backend that supports user and group permissions <br>
+was added to<br>
+<em>djangotoolbox/auth/backends.py</em>. </p>
+<h2>How To Use </h2>
+<p>Replace the default Django authentication backend with the one shipped with <br>
+<em>permission_backend_nonrel</em>: </p>
+
+<div class="highlight">
+    <pre>
+        <span class="n">settings</span><span class="o">.</span><span class="n">py</span><span class="p">:</span>
+        <span class="n">AUTHENTICATION_BACKENDS</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="s">'permission_backend_nonrel.backends.NonrelPermissionBackend',</span>
+        <span class="p">)</span>
+    </pre>
+</div>
+
+<p>Then you have to make sure that <em>&#39;permission_backend_nonrel</em> is added to your <br>
+<em>INSTALLED_APPS</em> in order to turn on admin support for editing groups and <br>
+permissions of users. It&#39;s important to put <em>&#39;permission_backend_nonrel</em> <br>
+after <em>djangotoolbox</em>, because <em>&#39;permission_backend_nonrel.admin</em> replaces <br>
+<em>djangotoolbox</em>&#39;s User admin site. Permission and groups can be assigned and <br>
+modified via Django&#39;s admin interface: </p>
+
+<p>Now you should be able to use all the standard Django permission methods and decorators, like <em>user.has_perm(&#39;foo&#39;)</em> and so on. </p>
+
+
+            <div class="post-footer">
+              Posted on Aug 25, 2010 by Florian Hahn
+              
+                <span>&raquo;</span> 
+                
+                  <a href="/archives/old/">old</a>
+                  
+                
+              
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <footer>
+      <div class="contact">
+        <ul>
+          <li>Florian Hahn</li>
+          <li>flo@fhahn.com</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <ul>
+          <li><a href="https://github.com/fhahn">github.com/fhahn</a></li>
+          <li><a href="https://twitter.com/fdhahn">twitter.com/fdhahn</a></li> 
+        </ul>
+      </div>
+    </footer>
+  </div> <!--! end of #container -->
+</body>
+</html>
