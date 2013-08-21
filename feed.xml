@@ -5,7 +5,7 @@
     <link rel="alternate" href="/" />
     <link rel="self" href="/feed.xml" type="application/atom+xml" />
     <id>/</id>
-    <updated>2013-08-21T21:29:52Z</updated>
+    <updated>2013-08-21T21:31:30Z</updated>
     
     <author>
         <name>Florian Hahn</name>
@@ -16,8 +16,8 @@
     
         <entry>
             <title>Django&#39;s Permission System with Django-Nonrel</title>
-            <link rel="alternate" href="/Django-s-Permission-System-with-Djang-Nonrel/" type="text/html" />
-            <id>/Django-s-Permission-System-with-Djang-Nonrel/</id>
+            <link rel="alternate" href="/writing/Django-s-Permission-System-with-Djang-Nonrel" type="text/html" />
+            <id>/writing/Django-s-Permission-System-with-Djang-Nonrel</id>
             <updated>2010-08-25T21:14:00Z</updated>
             
             <summary type="html">&lt;strong&gt;Update:&lt;/strong&gt; The backend code was moved from &lt;em&gt;djangotoolbox&lt;/em&gt; to a separate app:&lt;br&gt;
@@ -61,8 +61,8 @@ modified via Django&amp;#39;s admin interface: &lt;/p&gt;
     
         <entry>
             <title>Djangoappengine-helpers - Setup Reloaded</title>
-            <link rel="alternate" href="/Djangoappengine-helpers-Setup-Reloaded-Google-Account-Authentication-Backend/" type="text/html" />
-            <id>/Djangoappengine-helpers-Setup-Reloaded-Google-Account-Authentication-Backend/</id>
+            <link rel="alternate" href="/writing/Djangoappengine-helpers-Setup-Reloaded-Google-Account-Authentication-Backend" type="text/html" />
+            <id>/writing/Djangoappengine-helpers-Setup-Reloaded-Google-Account-Authentication-Backend</id>
             <updated>2010-08-13T21:15:00Z</updated>
             
             <summary type="html">&lt;strong&gt;Update:&lt;/strong&gt; Djangoappengine-helpers dead, but the authentication backend&lt;br&gt;
