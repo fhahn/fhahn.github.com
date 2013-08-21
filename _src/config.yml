@@ -46,7 +46,7 @@ analytics:
 # Chances are you probably don't need to touch anything below here.
 #
 #
-posts_url: /writing/<title>
+posts_url: /writing/<title>/
 
 archive_layout: archive.html
 archives_url: /archives/
