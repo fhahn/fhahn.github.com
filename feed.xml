@@ -5,7 +5,7 @@
     <link rel="alternate" href="/" />
     <link rel="self" href="/feed.xml" type="application/atom+xml" />
     <id>/</id>
-    <updated>2013-08-21T21:35:39Z</updated>
+    <updated>2013-08-21T21:37:50Z</updated>
     
     <author>
         <name>Florian Hahn</name>
@@ -16,8 +16,8 @@
     
         <entry>
             <title>Django&#39;s Permission System with Django-Nonrel</title>
-            <link rel="alternate" href="/writing/Django-s-Permission-System-with-Djang-Nonrel/" type="text/html" />
-            <id>/writing/Django-s-Permission-System-with-Djang-Nonrel/</id>
+            <link rel="alternate" href="/writing/Django-s-Permission-System-with-Django-Nonrel/" type="text/html" />
+            <id>/writing/Django-s-Permission-System-with-Django-Nonrel/</id>
             <updated>2010-08-25T21:35:00Z</updated>
             
             <summary type="html">&lt;strong&gt;Update:&lt;/strong&gt; The backend code was moved from &lt;em&gt;djangotoolbox&lt;/em&gt; to a separate app:&lt;br&gt;
