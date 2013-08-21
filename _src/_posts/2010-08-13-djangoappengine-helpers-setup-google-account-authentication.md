@@ -1,13 +1,7 @@
 ---
-layout: default
+layout: post.html
 title: Djangoappengine-helpers - Setup Reloaded
-excerpt: djangoappengine-helpers now provides a real Django authentication backend. So far the Backend only implements the authentication() method. It doesn't accept any arguments and uses the Google App Engine API to authenticate a user. All other backend methods are inherited from ModelBackend. 
-
-
 ---
-
-Djangoappengine-helpers -<br/> Setup Reloaded
-=========================================
 
 **Update:** Djangoappengine-helpers dead, but the authentication backend
 was moved to a seperate project, [django-gaeauth](https://github.com/fhahn/django-gaeauth).

@@ -1,0 +1,140 @@
+#logtitle {
+    color:#B9C0CB;
+    margin-top: .1em;
+    float: right;
+}
+
+
+h1 {
+    font-size: 20pt;
+    border-bottom:1px solid #DDDDDD;
+    color: #2f3845;
+}
+
+h2 {
+    font-size: 16pt;
+    border-bottom:1px solid #DDDDDD;
+    color: #2f3845;
+}
+
+h3 {
+    font-size: 14pt;
+    border-bottom:1px solid #DDDDDD;
+    color: #2f3845;
+}
+
+h4 {
+    font-size: 12pt;
+    border-bottom:1px solid #DDDDDD;
+    color: #2f3845;
+ }
+
+#container{
+    width: 600px;
+    background-repeat: repeat-x;
+    margin: 0;
+    text-align: left;
+    font-family: Georgia;
+    font-size: 14px; 
+    text-decoration: none;
+    line-height: 24px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+}
+
+footer { 
+    overflow:hidden;
+    margin-top: 10px;
+    border-top:1px solid #DDDDDD;
+}
+
+header {
+    margin:20px auto 20px;
+    padding: 10px;
+    overflow:hidden;
+    background: #f8f8f8 url("../images/header.png") repeat-x;
+    background-position : center; 
+    color:#B9C0CB;
+    height: 60px; 
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.contact{ 
+  float: left;
+  margin-right: -2em;
+  font-size: 0.9em;
+  color: #666666;
+  line-height: 1.5em;
+}
+
+.contact li{
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#subtitle {
+    position : relative;
+    top : 10px; 
+    font-size: 20pt;
+}
+
+a, a:visited {
+    color: #20633b;
+    text-decoration: none;
+}
+
+li { margin-bottom: 3px; }
+
+
+#tabmenue{
+    position : relative;
+    float: left;
+    top: 40px;
+    margin: 0;
+}
+
+#tabmenue li{
+    position: relative;
+    bottom:0px;
+    color:#B9C0CB;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#tabmenue a:link, #tabmenue a:visited{
+    color:#B9C0CB;
+    float: left;
+    padding: 3px 1em;
+    border-bottom: 0;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 0 10px 4px 10px;
+}
+
+#tabmenue a:link#current, #tabmenue a:visited#current, #tabmenue a:hover{
+    /*border-bottom:1px solid #DDDDDD;*/
+    padding-bottom: 2px;
+    color: black;
+    background-color: #B9C0CB;
+}
+
+.twitter-share-button{
+  float: left;
+  margin-right: 10px;
+}
+
+.post-footer {
+    background-color: #F0EDDE;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+}
