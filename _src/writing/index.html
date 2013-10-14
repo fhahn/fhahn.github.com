@@ -1,13 +1,20 @@
 {% extends "layout.html" %}
 
 {% block content %}
+
+<p><b>Older posts</b></p>
+
   {% for post in posts %}
-    <section>
-      <h1>{{ post.title }}</h1>
-      <p>{{ post.excerpt }}</p>
-      <div class="post-footer">
-        <a href="{{ get_url(post.url) }}">Continue reading »</a>
-      </div>
-    </section>
+    {% for name, tag in tags %}
+        {% if name == "old" %}
+            <section>
+              <h1>{{ post.title }}</h1>
+              <p>{{ post.excerpt }}</p>
+              <div class="post-footer">
+                <a href="{{ get_url(post.url) }}">Continue reading »</a>
+              </div>
+            </section>
+        {% endif %}
+    {% endfor %}
   {% endfor %}
 {% endblock %}
