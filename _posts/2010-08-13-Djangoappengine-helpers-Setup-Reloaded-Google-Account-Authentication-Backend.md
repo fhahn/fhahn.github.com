@@ -1,7 +1,8 @@
 ---
-layout: post.html
+layout: post
 title: Djangoappengine-helpers - Setup Reloaded
-tags: [old]
+categories: [old]
+permalink: /writing/Djangoappengine-helpers-Setup-Reloaded-Google-Account-Authentication-Backend/
 ---
 
 **Update:** Djangoappengine-helpers dead, but the authentication backend

@@ -1,7 +1,8 @@
 ---
-layout: post.html
+layout: post
 title: Django's Permission System with Django-Nonrel
-tags: [old]
+categories: [old]
+permalink: /writing/Django-s-Permission-System-with-Django-Nonrel/
 ---
 
 **Update:** The backend code was moved from *djangotoolbox* to a separate app:
