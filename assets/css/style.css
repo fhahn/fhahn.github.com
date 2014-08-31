@@ -5,7 +5,7 @@ h1 {
 }
 
 #container{
-    width: 700px;
+    width: 600px;
     text-align: left;
     font-family: Georgia;
     font-size: 14px; 
@@ -15,12 +15,18 @@ h1 {
 }
 
 #footer { 
+    margin-top: 1em;
     padding-top: 0.5em;
     border-top:1px solid #DDDDDD;
 }
 
+#content {
+    text-align: justify;
+}
+
 #header {
     margin-top: 20px;
+    margin-bottom: 3em;
 }
 
 #header a, #header a:visited {
@@ -36,6 +42,12 @@ h1 {
     font-size: 1.8em;
     font-weight: bold;
 }
+
+.oss-box-left { 
+  float: left;
+  margin-right: 0.5em;
+}
+
 
 .contact{ 
   float: left;
