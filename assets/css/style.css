@@ -57,6 +57,9 @@ h1 {
   line-height: 1.5em;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 a, a:visited {
     color: #20633b;
     text-decoration: none;
